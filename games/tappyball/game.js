@@ -1,6 +1,6 @@
 const circleDiameter = 20;
 const radiusRotation = 200;
-const acceleration = 0.01;
+const acceleration = 0.008;
 const rainbowColors = [0xFF0000, 0xFFA500, 0xFFFF00, 0x008000, 0x0000FF, 0x4B0082, 0x8A2BE2];
 const rainbowColorsDarker = [0x7F0000, 0x7F5200, 0x7F7f00, 0x004000, 0x00007F, 0x250041, 0x451571]
 
@@ -63,7 +63,7 @@ function create() {
     lastTapTime = Date.now();
     totalRevolution = 0;
     indexRainbowColors = 0;
-    lastLog10Score = 1;
+    lastLog10Score = 2;
     successfulTaps = 0;
     centerX = this.cameras.main.centerX;
     centerY = this.cameras.main.centerY;
@@ -162,8 +162,8 @@ function animateScoredPoint(this_, x, y, value) {
     });
     scoredText.setOrigin(0.5, 0.5);
 
-    let waveAmplitude = 20; // The amplitude of the wave, adjust as needed
-    let waveFrequency = 2; // The frequency of the wave, adjust as needed
+    let waveAmplitude = 20;
+    let waveFrequency = 2;
 
     this_.tweens.add({
         targets: scoredText,
@@ -320,7 +320,6 @@ function createSimpleTriangle(this_, originX, originY, scale=1) {
     graphics.fillPath();
 
     // Positioning the triangle
-    // Adjust these values as needed, taking into account the scale
     graphics.x = originX - 250 * scale;
     graphics.y = originY - 100 * scale;
 }
