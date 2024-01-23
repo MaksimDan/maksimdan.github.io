@@ -1,0 +1,19 @@
+html { 
+  background: url(assets/background2.png) center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Arial"
+}
+
+
+#howtoplay {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 20%;
+  height: 65%;
+  margin: 2%;
+  color: white;
+}
