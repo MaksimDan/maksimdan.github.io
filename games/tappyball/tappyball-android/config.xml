@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.ddmaksimdan.tappyball" version="1.0.0" xmlns="http://www.w3.org/ns/widgets"
+>
+    <name>Tappy Ball</name>
+    <description>Tap the arcs!</description>
+    <author email="ddmaksimdan@gmail.com">
+        Maksimdan Developer
+    </author>
+    <content src="index.html"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+
+    <!-- Icon configurations -->
+    <platform name="android">
+        <!-- Default icon -->
+        <icon src="icons/android/res/mipmap-mdpi/ic_launcher.png" density="mdpi"/>
+        <icon src="icons/android/res/mipmap-hdpi/ic_launcher.png" density="hdpi"/>
+        <icon src="icons/android/res/mipmap-xhdpi/ic_launcher.png" density="xhdpi"/>
+        <icon src="icons/android/res/mipmap-xxhdpi/ic_launcher.png" density="xxhdpi"/>
+        <icon src="icons/android/res/mipmap-xxxhdpi/ic_launcher.png" density="xxxhdpi"/>
+
+        <!-- Adaptive icons for Android 8.0+ -->
+        <icon src="icons/android/res/mipmap-anydpi-v26/ic_launcher.xml" foreground="res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+              background="icons/android/res/mipmap-xxxhdpi/ic_launcher_background.png"/>
+    </platform>
+</widget>

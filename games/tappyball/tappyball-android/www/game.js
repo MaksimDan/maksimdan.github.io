@@ -1,6 +1,6 @@
 const circleDiameter = 20;
-const radiusRotation = 200;
-const acceleration = 0.008;
+const radiusRotation = 175;
+const acceleration = 0.007;
 const rainbowColors = [0xFF0000, 0xFFA500, 0xFFFF00, 0x008000, 0x0000FF, 0x4B0082, 0x8A2BE2];
 const rainbowColorsDarker = [0x7F0000, 0x7F5200, 0x7F7f00, 0x004000, 0x00007F, 0x250041, 0x451571]
 
